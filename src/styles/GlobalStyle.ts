@@ -3,8 +3,28 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
 :root {
-  --gray2: #4F4F4F;
-  --default: #E0E0E0;
+  --white: #fff;
+  
+  --bg-blue100: #3D5AFE;
+  --bg-blue10: rgba(41, 98, 255, 0.1);
+
+  --text-blue100: #3D5AFE;
+  --text-gray4: #3F3F3F;
+  --text-gray-disabled: #9E9E9E;
+  --text-white: #fff;
+
+  --bg-default: #E0E0E0;
+  --bg-default-focus: #AEAEAE;
+  --bg-primary: #2962FF;
+  --bg-primary-focus: #0039CB;
+  --bg-secondary: #455A64;
+  --bg-secondary-focus: #1C313A;;
+  --bg-danger: #D32F2F;
+  --bg-danger-focus: #9A0007;
+
+  --size-sm: 2rem;
+  --size-md: 2.25rem;
+  --size-lg: 2.625rem;
 }
 
   * {
@@ -16,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     
   html {
     @media (max-width: 1080px) {
-      font-size: 93.75%;
+      font-size:100%;
     }
     @media (max-width: 720px) {
       font-size: 87.5%;

@@ -7,7 +7,16 @@ export const Dashboard: React.FC = () => {
     <Container>
       <h1>Buttons</h1>
       <Content>
-        <Button title='Default' />
+        <div>
+          <Button text='Default' />
+          <Button text='outline' variant='outline' />
+          <Button text='text' variant='text' />
+        </div>
+        <div>
+          <Button text='Default' />
+          <Button text='outline' variant='outline' />
+          <Button text='text' variant='text' />
+        </div>
       </Content>
     </Container>
   )

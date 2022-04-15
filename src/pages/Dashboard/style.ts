@@ -12,4 +12,11 @@ export const Content = styled.main`
   display: flex;
   justify-content: flex-start;
   padding: 2rem 0;
+  flex-direction: column;
+
+  button {
+    margin: 1.5rem;
+  }
+
+
 `;  
