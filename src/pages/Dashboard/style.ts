@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.main`
   width: 1120px;
@@ -6,7 +6,7 @@ export const Container = styled.main`
   margin: 2rem auto;
   background-color: #fcfcfc;
   padding: 1rem;
-  `;
+`
 
 export const Content = styled.main`
   display: flex;
@@ -17,6 +17,4 @@ export const Content = styled.main`
   button {
     margin: 1.5rem;
   }
-
-
-`;  
+`
