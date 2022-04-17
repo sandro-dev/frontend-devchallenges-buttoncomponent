@@ -1,30 +1,25 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
+
+import { COLORS } from './contants';
 
 export const GlobalStyle = createGlobalStyle`
 
 :root {
-  --white: #fff;
-  
-  --bg-blue100: #3D5AFE;
-  --bg-blue10: rgba(41, 98, 255, 0.1);
+  --bg-blue100: ${COLORS.blue100};
+  --bg-blue10: ${COLORS.blue10};
 
-  --text-blue100: #3D5AFE;
-  --text-gray4: #3F3F3F;
-  --text-gray-disabled: #9E9E9E;
-  --text-white: #fff;
+  --text-gray4: ${COLORS.text_gray};
+  --text-gray-disabled: ${COLORS.text_gray_disabled};
+  --text-white: ${COLORS.text_white};
 
-  --bg-default: #E0E0E0;
-  --bg-default-focus: #AEAEAE;
-  --bg-primary: #2962FF;
-  --bg-primary-focus: #0039CB;
-  --bg-secondary: #455A64;
-  --bg-secondary-focus: #1C313A;;
-  --bg-danger: #D32F2F;
-  --bg-danger-focus: #9A0007;
-
-  --size-sm: 2rem;
-  --size-md: 2.25rem;
-  --size-lg: 2.625rem;
+  --bg-default: ${COLORS.default};
+  --bg-default-focus: ${COLORS.default_focus};
+  --bg-primary: ${COLORS.primary};
+  --bg-primary-focus: ${COLORS.primary_focus};
+  --bg-secondary: ${COLORS.secondary};
+  --bg-secondary-focus: ${COLORS.secondary_focus};
+  --bg-danger: ${COLORS.danger};
+  --bg-danger-focus: ${COLORS.danger_focus};
 }
 
   * {
@@ -33,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 0;
     box-sizing: border-box;
   }
-    
+
   html {
     @media (max-width: 1080px) {
       font-size:100%;
@@ -41,16 +36,21 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 720px) {
       font-size: 87.5%;
     }
-    
+
   }
 
-  body, input, textarea { 
-    
+  body, input, textarea, button {
     font-weight: 400;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     font-size: 1rem;
-    line-height: 1.2rem;
+  }
+
+  button {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    background: none;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
@@ -58,24 +58,9 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 500;
   }
 
-  button { 
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    cursor: pointer;
-  }
-
-  
-
-
   [disabled] {
     cursor: not-allowed;
 
   }
 
-
-
-`
+`;
