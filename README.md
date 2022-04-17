@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://button-component.sandrosantos.dev" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/sandro-dev/frontend-devchallenges-buttoncomponent">
+    <a href="https://github.com/sandro-dev/frontend-devchallenges-buttoncomponent" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY" target="_blank">
       Challenge
     </a>
   </h3>
@@ -29,7 +29,6 @@
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -40,8 +39,6 @@
 This project was built with React, Vite and Styled-Components to solve a frontend challenge from devChallenges.io. In this demo you can see a dashboard with a set of possible button components.
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -78,14 +75,6 @@ $ npm install
 # Run the app
 $ npm start
 ```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
