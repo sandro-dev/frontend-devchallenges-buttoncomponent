@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/sandro-dev/frontend-devchallenges-buttoncomponent/master/.github/screenshot.gif)
 
 This project was built with React, Vite and Styled-Components to solve a frontend challenge from devChallenges.io. In this demo you can see a dashboard with a set of possible button components.
 
