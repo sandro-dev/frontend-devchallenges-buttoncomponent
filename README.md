@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://button-component.sandrosantos.dev" target="_blank">
+    <a href="https://devchallenge-button-component-sandro-dev.netlify.app" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -42,6 +42,7 @@ This project was built with React, Vite and Styled-Components to solve a fronten
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 
 ## Features
